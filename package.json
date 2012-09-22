@@ -1,0 +1,16 @@
+{
+  "name": "chatrooms-basic",
+  "version": "0.0.1",
+  "description": "Minimalist multi-room chat server",
+  "dependencies": {
+    "socket.io": "~0.9.6",
+    "mime": "~1.2.7"
+  },
+  "subdomain": "bennyjo.chat",
+  "scripts": {
+    "start": "server.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
